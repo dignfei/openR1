@@ -1,7 +1,6 @@
 # reproduction of DeepSeek R1 Zero
 
-
-openr1 is a reproduction of [DeepSeek R1 Zero](https://github.com/deepseek-ai/DeepSeek-R1) in gsm8k . 
+A fully open reproduction of DeepSeek-R1.
 
 Through RL, the base LM develops self-verification and search abilities all on its own 
 
@@ -76,6 +75,10 @@ Modify the content of main/gsm8k.py, changing "gsm8k" to your own dataset.
 actor_rollout_ref.model.path=/root/openR1/models/Qwen2.5-0.5B
 ```
 Modify the launch parameters to change /root/openR1/models/Qwen2.5-0.5B to the path of your own model.
+
+## Acknowledge
+* We run our experiments based on [veRL](https://github.com/volcengine/verl).
+* We use Qwen2.5 series base model [Qwen2.5](https://github.com/QwenLM/Qwen2.5).
 
 
 ## Citation
